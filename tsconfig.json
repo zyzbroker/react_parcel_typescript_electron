@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "jsx": "react", 
+      "target": "es5", 
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+  },
+  "exclude": [
+      "node_modules",
+      "__tests__/*.test.ts",
+      "src/*.scss",
+      "src/*.html",
+  ],
+  "files": [
+      "main.ts",
+      "renderer.ts"
+  ]
+}
