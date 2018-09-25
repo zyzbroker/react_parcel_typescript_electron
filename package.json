@@ -8,7 +8,7 @@
         "build": "rm -rf dist && tsc --outDir dist && parcel build src/index.html --target electron --public-url .  --log-level 3",
         "start": "rm -rf dist && tsc --outDir dist && parcel watch src/index.html --target electron --public-url . --log-level 3 & sleep 5 && electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": "https://github.com/zyzbroker/react_parcel_typescript_electron.git",
     "keywords": [
         "Electron",
         "quick",
