@@ -17,6 +17,5 @@
   ],
   "files": [
       "main.ts",
-      "renderer.ts"
   ]
 }
